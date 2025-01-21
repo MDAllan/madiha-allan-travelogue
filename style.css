@@ -22,7 +22,7 @@ header h1 {
 
 nav ul li {
     display: inline;
-    padding: 10px;
+    padding: 8px;
 }
 
 nav ul li a {
@@ -126,3 +126,7 @@ button.generate-tip:hover {
     display: block; 
 }
 
+@media (max-width: 768px) {
+    nav ul li a {
+        font-size: 1.1rem;
+}}
